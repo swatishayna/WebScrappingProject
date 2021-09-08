@@ -52,8 +52,8 @@ def scrape():
     global output_data
 
     secure_connect_bundlezip = 'D:\data science\ineuron\Databases\Cassandra\secure-connect-scrappingdata.zip'
-    client_id = 'xzwnPGxiZZZdvZHEGQeUjxEM'
-    client_Secret = 'Iwr4DW-qeDFYgf,x1BtjHufBMgZE59r7pbHHeIvHPRx0p_h3OHLsssxDTU3_L_yK4DF0bouiFg0.2vxr.Z,1Dp3i5Kx2xZ4p7qqvINt,sJEco0fgMkRrZ7UaCf7-x2N2'
+    client_id = "Provide Client ID here"
+    client_Secret = "Provide Client Secret Here"
     keyspace = "flipkart"
     table_name = baseURL.split("/")[3][:5]
     def connect(secure_connect_bundlezip, client_id, client_Secret):
